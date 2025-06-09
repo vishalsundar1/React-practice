@@ -1,0 +1,63 @@
+.highlight{
+    background-color: #80c0b5;
+}
+
+.navbar-style{
+    background-color: #038c51 !important;
+}
+
+.nav-link {
+  color: white !important;      /* Set text color */
+}
+
+.nav-link:hover  {
+  background-color: darkgreen;  /* Color on hover */
+  color: #fff; 
+  border-radius: 4px;                 /* Text color on hover */
+}
+
+.navbar-brand:hover{
+    background-color: darkgreen;  /* Color on hover */
+    color: #fff;
+    border-radius: 4px;
+}
+
+.green-highlight {
+    color: green !important;
+    font-size: 40px;
+}
+
+.red-highlight {
+    color: red !important;
+    font-size: 40px;
+}
+
+.blue-highlight {
+    color: blue !important;
+    font-size: 40px;
+}
+
+.hand-icon{
+    cursor: pointer;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: #f0f2f5; /* Light background */
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.nav-link.active{
+  border-bottom: 2px solid #b90b0b00 !important;
+}
